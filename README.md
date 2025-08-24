@@ -1,29 +1,35 @@
+📊 Student Score Prediction
+📖 Overview
 
-Student Score Prediction
-Overview
-This project predicts students' exam scores based on factors like study hours, sleep quality, and participation using a neural network. It includes data preprocessing, feature selection, and performance visualization.
+This project predicts students’ scores based on various factors such as study hours, sleep, participation, and more.
+It applies different machine learning techniques to analyze the relationship between features and performance.
 
-Dataset
-Student Performance Factors
+🚀 Features
 
-Key Steps
-Data cleaning (handled missing values)
-Feature encoding (converted categorical to numerical)
-Feature selection (removed low-correlation features)
-Data splitting (80% train, 20% test)
-Feature standardization
-Training
-Optimizer: Adam Loss: Mean Squared Error (MSE) Early Stopping (patience=10) Metrics: MAE
+Data preprocessing and visualization
 
+Multiple regression models for prediction
 
+Comparison of models with evaluation metrics
 
-Requirements:
-Python 3.12
+Experiments with feature combinations (e.g., sleep, participation)
 
-pandas
+Polynomial regression implementation
 
-tensorflow
+🛠️ Tools & Libraries
 
-scikit-learn
+Python
 
-matplotlib
+Pandas
+
+Matplotlib
+
+Scikit-learn
+
+📊 Results
+
+Polynomial regression improved performance compared to linear regression.
+
+Feature selection significantly affected accuracy.
+
+Visualizations show correlations between study habits and scores.
