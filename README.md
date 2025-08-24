@@ -1,3 +1,4 @@
+
 Student Score Prediction
 Overview
 This project predicts students' exam scores based on factors like study hours, sleep quality, and participation using a neural network. It includes data preprocessing, feature selection, and performance visualization.
